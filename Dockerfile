@@ -1,4 +1,4 @@
-FROM rocker/r-ver:4
+FROM r-base:4.3.1
 
 COPY install_common_R_packages.R /
 
